@@ -8,6 +8,14 @@ p, h1, h2, h3, h4 {
   font-family: 'Bree Serif', serif;
 }
 
+a {
+  outline: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
 .container {
   padding: 2%;
   display: flex;
@@ -16,12 +24,29 @@ p, h1, h2, h3, h4 {
 }
 
 .svg-wrapper {
-  padding: 8%;
+  display: flex;
+  justify-content: center;
 }
 
-.svg { max-height: 50%; }
+#svgw {
+}
 
-.main {}
+.svg {
+
+    @media only screen and (min-width: 600px) {
+    max-width: 650px;
+  }
+}
+
+.main {
+
+     @media only screen and (min-width: 600px) {
+      background-color: #ffffff1a;
+      margin: 0 30%;
+      padding: 2%;
+      border-radius: 10px;
+  }
+}
 
 .main__headline {
   text-align: center;
@@ -48,17 +73,17 @@ p, h1, h2, h3, h4 {
 }
 
 .home-btn {
-  width: 100%;
   color: #fff;
   border: 0px;
-  padding: 10px;
+  width: 100%;
+  padding: 5px;
   margin: 10px;
   font-family: 'Bree Serif', serif;
   font-size: 1rem;
-   background-color: #A857C5;
+   background-color: #5e5e5e;
    //border-bottom: 2px solid #C47FDC;
   &:hover {
-    background-color: #C47FDC;
+    background-color: #5e5e4a;
     color: #fff;
 
   }
