@@ -22,9 +22,11 @@ button::-moz-focus-inner {
   display: flex;
   justify-content: center; }
 
-@media only screen and (min-width: 600px) {
-  .svg {
-    max-width: 650px; } }
+.svg {
+  min-width: 300px; }
+  @media only screen and (min-width: 600px) {
+    .svg {
+      min-width: 400px; } }
 
 @media only screen and (min-width: 600px) {
   .main {
