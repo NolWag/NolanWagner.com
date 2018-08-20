@@ -21,32 +21,30 @@ button::-moz-focus-inner {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  @media only screen and (min-width: 600px) {
+    flex-direction: row;
+  }
 }
 
 .svg-wrapper {
   display: flex;
   justify-content: center;
-}
 
-#svgw {
-}
-
-.svg {
-  min-width: 300px;
-    @media only screen and (min-width: 600px) {
-    min-width: 400px;
+  @media only screen and (min-width: 600px) {
   }
 }
 
 .main {
 
      @media only screen and (min-width: 600px) {
-      background-color: #ffffff1a;
-      margin: 0 30%;
       padding: 2%;
-      border-radius: 10px;
-  }
+      min-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 }
+
 
 .main__headline {
   text-align: center;
@@ -69,7 +67,7 @@ button::-moz-focus-inner {
   flex-direction: column;
   justify-content: center;
   margin-top: 5%;
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .home-btn {
