@@ -23,6 +23,7 @@ button::-moz-focus-inner {
   flex-direction: column;
   @media only screen and (min-width: 600px) {
     flex-direction: row;
+    margin-top: 8%;
   }
 }
 
@@ -54,6 +55,14 @@ button::-moz-focus-inner {
   margin: 0;
   letter-spacing: .1em;
   margin-top: 0;
+
+  @media only screen and (min-width: 800px) {
+    font-size: 2.5em;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    font-size: 3.5em;
+  }
 }
 
 .main__subline {
@@ -61,7 +70,17 @@ button::-moz-focus-inner {
   letter-spacing: .1em;
   margin: 0;
   font-size: 1.25em;
+
+  @media only screen and (min-width: 800px) {
+    font-size: 2em;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    font-size: 3em;
+  }
+
 }
+
 
 .btn-wrapper {
   display: flex;

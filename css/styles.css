@@ -19,7 +19,8 @@ button::-moz-focus-inner {
   flex-direction: column; }
   @media only screen and (min-width: 600px) {
     .container {
-      flex-direction: row; } }
+      flex-direction: row;
+      margin-top: 8%; } }
 
 .svg-wrapper {
   display: flex;
@@ -43,12 +44,24 @@ button::-moz-focus-inner {
   margin: 0;
   letter-spacing: .1em;
   margin-top: 0; }
+  @media only screen and (min-width: 800px) {
+    .main__headline {
+      font-size: 2.5em; } }
+  @media only screen and (min-width: 1000px) {
+    .main__headline {
+      font-size: 3.5em; } }
 
 .main__subline {
   text-align: center;
   letter-spacing: .1em;
   margin: 0;
   font-size: 1.25em; }
+  @media only screen and (min-width: 800px) {
+    .main__subline {
+      font-size: 2em; } }
+  @media only screen and (min-width: 1000px) {
+    .main__subline {
+      font-size: 3em; } }
 
 .btn-wrapper {
   display: flex;
