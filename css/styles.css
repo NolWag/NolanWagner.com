@@ -6,11 +6,7 @@ body {
 a {
   outline: 0; }
 
-.svg-wrapper {
-  max-width: 33%;
-  margin: 2em; }
-
-.box {
+.main {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -19,21 +15,31 @@ a {
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column; }
-  @media only screen and (min-width: 600px) {
+  flex-direction: row;
+  align-items: center; }
+  @media only screen and (max-width: 900px) {
     .container {
-      flex-direction: row;
-      align-items: center; } }
+      flex-direction: column; } }
+
+.svg-wrapper {
+  max-width: 33%;
+  margin: 2em; }
+  @media only screen and (max-width: 900px) {
+    .svg-wrapper {
+      max-width: 80%; } }
 
 .svg {
   width: 100%;
   height: 100%; }
 
-@media only screen and (min-width: 600px) {
-  .content {
-    max-width: 33%;
-    display: flex;
-    flex-direction: column; } }
+.content {
+  max-width: 33%;
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (max-width: 900px) {
+    .content {
+      max-width: none;
+      padding: 1em; } }
 
 .headline {
   margin: 0;
