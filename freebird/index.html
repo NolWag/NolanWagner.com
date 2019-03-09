@@ -7,7 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <title>App</title>
   </head>
-<div class="container">
+  <div id="loader" class="loader"></div>
+
+<div id="load" class="container">
   <div class="text-wrapper">
     <h1 class="title">Freebird Queuer</h1>
     <h3 id="status" class="subtitle">Just Gettin' Started</h3>
@@ -63,6 +65,13 @@
         audio.play();
       }
   });
+
+  window.onload = function(){
+    var loader = document.getElementById('loader');
+    var load = document.getElementById('load');
+    loader.style.display = 'none';
+    load.style.display = 'flex';
+  };
 
 </script>
 </div>
