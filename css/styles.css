@@ -1,88 +1,61 @@
 body {
-  background-color: #000;
-  overflow-x: hidden; }
-
-p, h1, h2, h3, h4 {
-  color: #fff;
-  font-family: 'Bree Serif', serif; }
+  background-color: #211e1e;
+  overflow-x: hidden;
+  color: #fff; }
 
 a {
   outline: 0; }
 
-button::-moz-focus-inner {
-  border: 0; }
+.svg-wrapper {
+  max-width: 33%;
+  margin: 2em; }
+
+.box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .container {
-  padding: 2%;
   display: flex;
   justify-content: center;
   flex-direction: column; }
   @media only screen and (min-width: 600px) {
     .container {
       flex-direction: row;
-      margin-top: 8%; } }
-
-.svg-wrapper {
-  display: flex;
-  justify-content: center; }
-  @media only screen and (min-width: 600px) {
-    .svg-wrapper {
-      max-width: 30%; } }
+      align-items: center; } }
 
 .svg {
   width: 100%;
   height: 100%; }
 
 @media only screen and (min-width: 600px) {
-  .main {
-    padding: 2%;
-    min-width: 50%;
+  .content {
+    max-width: 33%;
     display: flex;
-    flex-direction: column;
-    justify-content: center; } }
+    flex-direction: column; } }
 
-.main__headline {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 1em;
+.headline {
   margin: 0;
-  letter-spacing: .1em;
-  margin-top: 0; }
-  @media only screen and (min-width: 800px) {
-    .main__headline {
-      font-size: 2.5em; } }
-  @media only screen and (min-width: 1000px) {
-    .main__headline {
-      font-size: 3.5em; } }
+  font-family: 'Josefin Sans', sans-serif; }
 
-.main__subline {
-  text-align: center;
-  letter-spacing: .1em;
+.subline {
   margin: 0;
-  font-size: 1.25em; }
-  @media only screen and (min-width: 800px) {
-    .main__subline {
-      font-size: 2em; } }
-  @media only screen and (min-width: 1000px) {
-    .main__subline {
-      font-size: 3em; } }
+  font-family: 'Josefin Sans', sans-serif; }
+
+.text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em; }
 
 .btn-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 5%;
-  padding: 0 20%; }
+  display: flex; }
 
-.home-btn {
-  color: #fff;
-  border: 0px;
-  width: 100%;
-  padding: 5px;
-  margin: 10px 0;
-  font-family: 'Bree Serif', serif;
-  font-size: 1rem;
-  background-color: #5e5e5e; }
-  .home-btn:hover {
-    background-color: #5e5e4a;
-    color: #fff; }
+.btn-home {
+  border: .3em solid #fff;
+  padding: 1em 3em;
+  color: #444;
+  background-color: #fff; }
+
+.btn-spacer {
+  margin-right: 2em; }
