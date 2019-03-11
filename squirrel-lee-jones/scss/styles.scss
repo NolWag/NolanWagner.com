@@ -1,6 +1,20 @@
 body {
 	background-color: #211e1e;
 }
+
+.nav {
+  position: absolute;
+  margin: 1em;
+  color: #fff;
+  display: flex;
+  list-style-type: none;
+
+}
+
+.nav-child {
+
+}
+
 .main {
 	height: 100vh; 
   display: flex; 

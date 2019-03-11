@@ -1,16 +1,21 @@
 body {
-	background-color: #211e1e;
-}
+  background-color: #211e1e; }
+
+.nav {
+  position: absolute;
+  margin: 1em;
+  color: #fff;
+  display: flex;
+  list-style-type: none; }
+
 .main {
-	height: 100vh; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-}
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .image {
-	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Tommy-Lee-Jones-Squirrel.png');
-	width: 500px;
-	height: 500px;
-	background-size: 100%;
-}
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Tommy-Lee-Jones-Squirrel.png");
+  width: 500px;
+  height: 500px;
+  background-size: 100%; }
