@@ -10,9 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-util": "latest",
+    "gulp-connect": "^5.5.0",
     "gulp-sass": "^4.0.1",
-    "gulp-connect": "^5.5.0"
+    "gulp-util": "latest"
   },
   "dependencies": {
     "gsap": "^2.0.1"

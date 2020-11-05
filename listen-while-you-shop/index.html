@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='./css/styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Listen While You Shop</title>
+  </head>
+
+  <style>
+      .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+      }
+
+      .product {
+          display: flex;
+          width: 25%;
+          flex-direction: column;
+          align-items: center;
+          margin: 1rem;
+      }
+
+      .product__header {
+          display: flex;
+         justify-content: space-between;
+         align-items: center; 
+         width: 100%;
+      }
+
+      .product__image {
+          width: 100%;
+      }
+
+      .product__footer {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin-top: 20px;
+      }
+
+      .button {
+          background: red;
+          border: none;
+          padding: 15px 70px;
+          color: #fff;
+          font-weight: 900;
+      }
+
+      .pop-up__marker {
+          position: fixed;
+          bottom: 0;
+          right: 100px;
+          width: 250px;
+          height: 55px;
+          background-color: #00000070;
+          color: #fff;
+          font-weight: 900;
+          text-transform: uppercase;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          text-align: center;
+          font-family: sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: solid 1px #eee;
+      }
+
+      /* AUDIO CONTROLS */  
+      .audio__container {
+         
+      }
+
+      .audio__container p {
+        color: #fff;
+        text-transform: capitalize;
+        margin: 0;
+        margin-top: 14px;
+        padding: 0 20%;
+        font-size: 12px;
+      }
+
+      .audio-controls__container {
+          display: flex;
+          justify-content: center;
+      }
+
+      .audio-controls__play {
+          height: 50px;
+          width: 50px;
+          background-image: url('./images/play-button.png');
+          background-size: cover;
+      }
+
+      #popup-header {
+          padding: 20px 0;
+          width: 100%;
+      }
+
+  </style>
+
+<div class="main">
+    <div id="popup-marker" class="pop-up__marker animate__animated animate__pulse animate__infinite">
+        <div id="popup-header">Listen While You Shop</div>
+        
+        <div class="audio__container">
+            <p>Please enjoy this musical experience...</p>
+            <audio id="audio">
+                <source src="Freebird.mp3" type="audio/mp3">
+              </audio>
+              <div class="audio-controls__container">
+                  <div id="Play" class="audio-controls__play"></div>
+              </div>
+        </div>
+    </div>
+	<div class="container">
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__header">
+                <h2>Product Title</h2>
+                <span>$29.99</span>    
+            </div>
+            <img src="./images/carrots-7-1200.jpg" class="product__image" />
+            <div class="product__footer">
+                <button class="button">Add To Cart</button>
+                <button class="button">Buy Now</button>    
+            </div>
+        </div>
+
+
+	</div>
+</div>
+
+<script>
+    let PopUpHeader = document.getElementById('popup-header');
+    let PopUp = document.getElementById('popup-marker');
+    var audio = document.getElementById('audio');
+    // Audio Controls
+    let PlayButton = document.getElementById('Play')
+    
+    let PopUpOpen = false;
+
+    PopUpHeader.addEventListener("click", function(){
+        if(PopUpOpen == true) {
+            PopUp.style.height = "50px";
+            PopUp.classList.add('animate__animated');
+            PopUpOpen = false;
+        } else {
+        // Slides up
+        PopUp.style.height = "200px";
+        // Stops animation
+        PopUp.classList.remove('animate__animated');
+        // Play Button Event Listener
+        PlayButton.addEventListener('click', function() {
+            audio.play();
+            audio.currentTime = 325;
+        })
+        PopUpOpen = true;
+
+        }
+    })
+</script>
+
+<!-- document.addEventListener('click', function(e) {
+    var position = e.target.id;
+    var status = document.getElementById('status');
+    var audio = document.getElementById('audio');
+    var btn = document.getElementById('btn-switch');
+
+    if(audio.paused){
+      btn.addEventListener('click', function() {
+        audio.currentTime = 245;
+        audio.play();
+      })
+    }
+    if(position === "one") {
+      console.log('one')
+      status.innerHTML = "Just Gettin' Started";
+      audio.currentTime = 245;
+      audio.play();
+    } else if (position === "two") {
+        console.log('two')
+        status.innerHTML = "Party Time";
+        audio.currentTime = 283;
+        audio.play();
+      } else if (position === "three") {
+        console.log('three')
+        status.innerHTML = "Police Are Comin'";
+        audio.currentTime = 325;
+        audio.play();
+      }
+  });
+
+  window.onload = function(){
+    var loader = document.getElementById('loader');
+    var load = document.getElementById('load');
+    loader.style.display = 'none';
+    load.style.display = 'flex';
+  }; -->
