@@ -47,12 +47,14 @@ a {
 .subline {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  margin-top: .25em; }
+  margin-top: 8px; }
 
 .text {
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  margin-top: 10px;
+}
 
 .btn-wrapper {
   display: flex; }
