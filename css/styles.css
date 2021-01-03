@@ -72,5 +72,13 @@ a {
   width: 200px;
 }
 
+  @media only screen and (max-width: 900px) {
+ .btn-home {
+    margin-bottom: 10px;
+    }}
+
+
+
+
 .btn-spacer {
   margin-right: 2em; }
