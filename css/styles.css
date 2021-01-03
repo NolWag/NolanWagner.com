@@ -33,7 +33,6 @@ a {
   height: 100%; }
 
 .content {
-  max-width: 33%;
   display: flex;
   flex-direction: column; }
   @media only screen and (max-width: 900px) {
@@ -62,7 +61,9 @@ a {
   border: .3em solid #fff;
   padding: 1em 3em;
   color: #444;
-  background-color: #fff; }
+  background-color: #fff;
+  width: 200px;
+}
 
 .btn-spacer {
   margin-right: 2em; }
