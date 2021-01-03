@@ -37,7 +37,7 @@ a {
   flex-direction: column; }
   @media only screen and (max-width: 900px) {
     .content {
-      max-width: none;
+      max-width: 70%;
       padding: 1em; } }
 
 .headline {
@@ -58,6 +58,11 @@ a {
 
 .btn-wrapper {
   display: flex; }
+
+  @media only screen and (max-width: 900px) {
+  .btn-wrapper {
+  flex-direction: column; }}
+
 
 .btn-home {
   border: .3em solid #fff;
