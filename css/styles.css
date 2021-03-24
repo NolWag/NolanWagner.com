@@ -33,12 +33,11 @@ a {
   height: 100%; }
 
 .content {
-  max-width: 33%;
   display: flex;
   flex-direction: column; }
   @media only screen and (max-width: 900px) {
     .content {
-      max-width: none;
+      max-width: 70%;
       padding: 1em; } }
 
 .headline {
@@ -48,21 +47,38 @@ a {
 .subline {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  margin-top: .25em; }
+  margin-top: 8px; }
 
 .text {
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  margin-top: 10px;
+}
 
 .btn-wrapper {
   display: flex; }
+
+  @media only screen and (max-width: 900px) {
+  .btn-wrapper {
+  flex-direction: column; }}
+
 
 .btn-home {
   border: .3em solid #fff;
   padding: 1em 3em;
   color: #444;
-  background-color: #fff; }
+  background-color: #fff;
+  width: 200px;
+}
+
+  @media only screen and (max-width: 900px) {
+ .btn-home {
+    margin-bottom: 10px;
+    }}
+
+
+
 
 .btn-spacer {
   margin-right: 2em; }
