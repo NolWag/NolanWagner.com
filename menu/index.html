@@ -1,6 +1,25 @@
 <style>
+
     .main {
         padding: 0 10%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    @media (max-width: 600px) {
+        .main {
+            padding: 0 15px;
+        }
+    }
+
+    .logo-title {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        .logo-title {
+            font-size: 1.5rem;
+        }
     }
 
     .menu-section {
@@ -17,6 +36,13 @@
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
 
+    @media (max-width: 600px ) {
+        .menu-item {
+            margin: 10px;
+            flex-basis: 100%;
+        }
+    }
+
     .menu-item__paragraph {
        }
 </style>
@@ -28,8 +54,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='stylesheet' href='./css/styles.css'>
     <title>Restaurante De Nol - Menu</title>
-  </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">   </head>
 <div class="main">
+    <h1 class="logo-title">Restaurante De Nol</h1>
     <h1>Apps</h1>
     <div class="menu-section">
         <div class="menu-item">
@@ -43,6 +71,10 @@
         </div>
         <div class="menu-item">
             <h3>Balsamic Bruschetta</h3>
+            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Caprese</h3>
             <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
         </div>
         <div class="menu-item">
@@ -136,10 +168,6 @@
             <h3>Dirty Rice & Shrimp</h3>
             <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
         </div>
-        <div class="menu-item">
-            <h3>Name</h3>
-            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
-        </div>
     </div>
 
     <h1>Chicken</h1>
@@ -161,6 +189,11 @@
             <h3>Chicken Stir Fry</h3>
             <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
         </div>
+        <div class="menu-item">
+            <h3>Fried Chicken</h3>
+            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
+        </div>
+
     </div>
 
     <h1>Pork</h1>
@@ -171,15 +204,7 @@
             This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
         </div>
         <div class="menu-item">
-            <h3>Creamy Cajun Chicken</h3>
-            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
-        </div>
-        <div class="menu-item">
-            <h3>Cilantro Butter Chicken</h3>
-            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
-        </div>
-        <div class="menu-item">
-            <h3>Chicken Stir Fry</h3>
+            <h3>Slow Cooked Back Ribs</h3>
             <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
         </div>
     </div>
@@ -264,14 +289,6 @@
         </div>
         <div class="menu-item">
             <h3>Roasted Vegs & Tahini</h3>
-            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
-        </div>
-        <div class="menu-item">
-            <h3>Pistachio Baklava</h3>
-            <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
-        </div>
-        <div class="menu-item">
-            <h3>Thai Mango Rice</h3>
             <p>This is a description about this menu item. I can't think of anything else to type, but this needs to be a lot longer for testing purposes.</p>
         </div>
     </div>
